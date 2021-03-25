@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>REGEX</title>
+  </head>
+  <body>
+    <h3 class="header">正则表达式</h3>
+    <div class="container">
+      <div class="left">
+        <div class="fieldgroup">
+          <label for="">选择文件</label>
+          <input type="file" id="file" accept=".html,.txt" />
+        </div>
+
+        <div class="fieldgroup">
+            <p>
+                <h4>Regular Expression</h4>
+                name = /Charlie\s+Winston/i</br>
+                phone = /0\s*4\s*[\d|\s*]{8,}/
+            </p>
+
+          <button id="searchbtn">搜索</button>
+        </div>
+
+        <div class="fieldgroup result">
+          <h3>搜索结果</h3>
+          <div class="result-content"></div>
+        </div>
+      </div>
+
+      <div class="right" id="filecontent"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

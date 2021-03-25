@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.description {
+  max-width: 500px;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flowchart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+img {
+  max-height: 500px;
+}
+
+@media screen and (max-width: 567px) {
+  .content {
+    flex-direction: column;
+  }
+}

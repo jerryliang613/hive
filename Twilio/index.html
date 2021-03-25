@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Twilio Flowchart</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TWILIO</h1>
+      <div class="content">
+        <div class="description">
+          <p>根据查阅网上的相关资料，没有查到通过Twilio大批量群发定制短信的方法。似乎只能根据Twilio和通信运营商的限制来把用户群分组, 然后再通过Twilio发送。Twilio的Messaging Service似乎是一种比用单一号码发送更可靠的方法（Notify发送方式不能发送定制短信。Shortcode是一种可靠的群发方式，但是Twilio不支持在澳洲使用Shortcode。详见 <a href='https://www.twilio.com/guidelines/au/sms' target="_blank">https://www.twilio.com/guidelines/au/sms</a>）。具体实现方式如有需要也可以咨询Twilio的相关人员。 考虑到发送的信息数量和费用问题是否可以寻找其他的方案，比如 <a href="https://www.smscomparison.com.au/bulk-sms-australia/">https://www.smscomparison.com.au/bulk-sms-australia/</a> </p>
+          <p>参考资料</br>
+            <a href="https://www.twilio.com/docs/messaging/services">Messaging Service</a></br>
+            <a href="https://www.twilio.com/docs/verify/api/service-rate-limits">Twilio rate limit</a></br>
+            <a href="https://www.twilio.com/blog/2017/12/send-bulk-sms-twilio-node-js.html">The ultimate guide to sending bulk SMS with Twilio and Node.js</a>
+        
+        </p>
+        </div>
+        <div class="flowchart">
+
+            <h3>FLOWCHART</h3>
+            <img src="twilio.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
