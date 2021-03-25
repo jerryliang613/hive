@@ -28,7 +28,12 @@ img {
   max-height: 500px;
 }
 
-@media screen and (max-width: 567px) {
+p {
+  padding: 1rem;
+  line-height: 1.8rem;
+}
+
+@media screen and (max-width: 500px) {
   .content {
     flex-direction: column;
   }

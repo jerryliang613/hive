@@ -12,14 +12,13 @@
   text-align: center;
 }
 .left {
-  min-height: 400px;
+  min-height: 300px;
 }
 .right {
   border: 1px solid gray;
   padding: 1.5rem;
   flex-grow: 1;
-  min-width: 400px;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .left,
@@ -62,7 +61,7 @@ button:hover {
 }
 .result-content {
   margin-top: 1rem;
-  width: 360px;
+  min-width: 200px;
   min-height: 200px;
   border: 1px solid gray;
   border-radius: 5px;
@@ -72,7 +71,7 @@ button:hover {
   text-align: center;
   margin-bottom: 1rem;
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 500px) {
   .container {
     flex-direction: column;
   }
